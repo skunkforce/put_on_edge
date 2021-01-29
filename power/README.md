@@ -1,0 +1,12 @@
+# Power
+## pinning
+ 1. GND
+ 2. GND
+ 3. 3.3V
+ 4. 5V
+ 5. GND
+ 6. 2.5V
+ 7. GND
+ 8. 1.2V
+ 9. GND
+ A. TBD
