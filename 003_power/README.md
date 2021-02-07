@@ -1,4 +1,5 @@
 # Power
+Use the 'host' connector on the power supply side.
 ## pinning
  1. GND
  2. GND
@@ -9,4 +10,4 @@
  7. GND
  8. 1.2V
  9. GND
- A. TBD
+ 10. 1.8V

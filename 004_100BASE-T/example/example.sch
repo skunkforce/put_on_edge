@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 601763BB
+P 7225 3600
+F 0 "#PWR?" H 7225 3350 50  0001 C CNN
+F 1 "GND" H 7230 3427 50  0000 C CNN
+F 2 "" H 7225 3600 50  0001 C CNN
+F 3 "" H 7225 3600 50  0001 C CNN
+	1    7225 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 3525 7175 3575
+Wire Wire Line
+	7175 3575 7225 3575
+Wire Wire Line
+	7275 3575 7275 3525
+Wire Wire Line
+	7225 3600 7225 3575
+Connection ~ 7225 3575
+Wire Wire Line
+	7225 3575 7275 3575
+$Comp
+L put_on_edge:1000BASE-T_2x4 J?
+U 1 1 601B5EBB
+P 7225 2975
+F 0 "J?" H 7553 2988 50  0000 L CNN
+F 1 "1000BASE-T_2x4" H 7553 2897 50  0000 L CNN
+F 2 "" H 7525 3625 50  0001 C CNN
+F 3 "" H 7525 3625 50  0001 C CNN
+	1    7225 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L put_on_edge:PoE_2x2 J?
+U 1 1 601B6C98
+P 7250 4550
+F 0 "J?" H 7578 4563 50  0000 L CNN
+F 1 "PoE_2x2" H 7578 4472 50  0000 L CNN
+F 2 "" H 7550 5200 50  0001 C CNN
+F 3 "" H 7550 5200 50  0001 C CNN
+	1    7250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601B890C
+P 7250 5175
+F 0 "#PWR?" H 7250 4925 50  0001 C CNN
+F 1 "GND" H 7255 5002 50  0000 C CNN
+F 2 "" H 7250 5175 50  0001 C CNN
+F 3 "" H 7250 5175 50  0001 C CNN
+	1    7250 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5100 7200 5150
+Wire Wire Line
+	7200 5150 7250 5150
+Wire Wire Line
+	7300 5150 7300 5100
+Wire Wire Line
+	7250 5175 7250 5150
+Connection ~ 7250 5150
+Wire Wire Line
+	7250 5150 7300 5150
+$EndSCHEMATC
