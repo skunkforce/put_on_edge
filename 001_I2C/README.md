@@ -1,8 +1,14 @@
 # i2c
 ## pining
- 1. GND
- 2. CS
- 3. SCL
- 4. SDA
- 9. 3.3V
- 10. 5V
+| Pin | Description |
+| --- | ----------- |
+| 1   | GND         |
+| 2   | SDA         |
+| 3   | N/C         |
+| 4   | SCL         |
+| 5   | N/C         |
+| 6   | CS/EN       |
+| 7   | N/C         |
+| 8   | ~reset      |
+| 9   | 3.3V        |
+| 10  | 5V          | 

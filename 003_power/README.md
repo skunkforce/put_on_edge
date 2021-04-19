@@ -1,4 +1,6 @@
 # Power
+Version osf.010.v0.1
+
 Use the 'host' connector on the power supply side.
 ## pinning
  1. GND
