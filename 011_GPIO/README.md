@@ -3,11 +3,13 @@
 | Pin | Description |
 | --- | ----------- |
 | 1 | GND |
-| 2 | 3.3V |
-| 3 | GPIO0 |
-| 4 | GPIO1 |
-| 5 | GND |
-| 6 | GPIO2 |
-| 7 | GPIO3 |
-| 8 | GPIO4 |
+| 2 | GPIO0 |
+| 3 | GPIO1 |
+| 4 | GPIO2 |
+| 5 | GPIO3 |
+| 6 | GPIO4 |
+| 7 | GPIO5 |
+| 8 | GND |
+| 9 | 3.3V |
+| 10 | 5V |
 

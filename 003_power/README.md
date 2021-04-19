@@ -11,3 +11,5 @@ Use the 'host' connector on the power supply side.
  8. 1.2V
  9. GND
  10. 1.8V
+
+ Power connectors should be oriented on the top (device) or bottom (host) of the board. 

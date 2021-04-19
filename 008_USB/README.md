@@ -1,6 +1,9 @@
-# 1wire
+# USB
 ## pinning
  1. GND
- 2. 3.3V
- 3. TX
- 4. RX
+ 2. VBUS
+ 3. D+
+ 4. D-
+ 9. 3.3V
+ 10. 5V
+

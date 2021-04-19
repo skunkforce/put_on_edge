@@ -20,16 +20,30 @@ Rational for this scheme is that there is minimal space on the PCB yet each inte
 Each interface in the respective subfolders will define its own pinning. However there are a few conventions which every interface connector should conform to.
 
 ### host/device
-There are two seperate footprints for host/device side. For many connectors it is clear which is which. On designs it will be noted which side is host and which is device.
+There are two seperate footprints for host/device side. For many interfaces it is clear which is which. On designs it will be noted which side is host and which is device.
 
 ### spacing
-In order to allow for standard 14mm wide adapter boards connectors should be placed no closer than 15mm apeart on a board edge (measured pin 1 to pin 1 reguardless of connector pin count). 
+In order to allow for standard 13mm wide adapter boards connectors should be placed no closer than 16mm apeart on a board edge (measured pin 1 to pin 1 reguardless of connector pin count). 
 
 ### GND
 Pin 1 is always GND.
 
 ### orientation
-Pin 1 should always be on the top side of the board, this will make reverse connections less common. 2x2 or 2x4 connectors are discouranges as they are easier to connect the wrong way around.
+Pin 1 should always be on the top side of the board, this will make reverse connections less common.
 
+Host connectors should generally be oriented on the right or bottom side of a board and device connectors on the left or top. 
 
-
+### galvanic isolation friendly pinning
+Galvanic isolation modules (such and the iCoupler series) can support many different interfaces with one generic isolator. Care should be taken to standardize the interface such that a generic isolation device can be used for several different interface (SPI and UART for example). 
+| Pin | Description |
+| --- | ----------- |
+| 1 | GND |
+| 2 | host out|
+| 3 | host in|
+| 4 | host out|
+| 5 | host in|
+| 6 | host out|
+| 7 | host in|
+| 8 | host out|
+| 9 | 3.3V |
+| 10 | 5V | 

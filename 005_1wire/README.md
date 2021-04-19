@@ -2,5 +2,6 @@
 ## pinning
  1. GND
  2. data
- 3. 3.3V
- 4. 5V
+ 9. 3.3V
+ 10. 5V
+

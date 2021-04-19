@@ -1,21 +1,15 @@
-# 1000BASE-T
-The idea is to use one of these connectors for 100BASE-T and two for 1000BASE-T
-## data pinning
-| Pin | Description |
-| --- | ----------- |
-| 1 | GND |
-| 2 | CT2 |
-| 3 | TD1- |
-| 4 | TD2+ |
-| 5 | GND |
-| 6 | TD2- |
-| 7 | CT1 |
-| 8 | TD1+ |
-| 9 | GND |
-| 10 | CT2 |
-| 11 | TD1- |
-| 12 | TD2+ |
-| 13 | GND |
-| 14 | TD2- |
-| 15 | CT1 |
-| 16 | TD1+ |
+# UART
+Version osf.010.v0.2
+## pinning
+ 1. GND
+ 2. CS (host side ourput)
+ 3. RX (host side input)
+ 4. NC
+ 5. INT (host side input)
+ 6. TX (host side out)
+ 7. status (host side input)
+ 8. ~RESET (host side output)
+ 9. 3.3V
+ 10. 5V
+
+
