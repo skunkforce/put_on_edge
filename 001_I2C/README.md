@@ -1,4 +1,5 @@
 # i2c
+Version osf.010.v0.2
 ## pining
 | Pin | Description |
 | --- | ----------- |
