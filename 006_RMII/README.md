@@ -1,5 +1,5 @@
 # RMII
-Version osf.010.v0.2
+Version osf.006.v0.2
 
 RMII defines a connection between ethernet MACs and PHYs. TX and RX names are from the context of the MAC, connect TX to RX and RX to TX on the PHY side.
 
