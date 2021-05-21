@@ -1,5 +1,5 @@
 # Power
-Version osf.010.v0.2
+Version osf.003.v0.2
 
 Use the 'host' connector on the power supply side.
 ## pinning

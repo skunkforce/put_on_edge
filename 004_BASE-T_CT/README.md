@@ -1,5 +1,5 @@
 # BASE-T center taps
-Version osf.010.v0.2
+Version osf.004.v0.2
 ## pinning
 | Pin | Description |
 | --- | ----------- |

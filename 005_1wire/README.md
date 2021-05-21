@@ -1,5 +1,5 @@
 # 1wire
-Version osf.010.v0.2
+Version osf.005.v0.2
 ## pinning
 
 | Pin | Description 
