@@ -10,5 +10,5 @@ Version osf.008.v1.0
  7. usb3_rx-
  8. usb3_tx+
  9. usb3_tx-
- 10. 5V
+ 10. NC
 
