@@ -1,4 +1,4 @@
-# 1000BASE-T
+# 100BASE-T
 Version osf.014.v0.1
 ## pinning
 | Pin | Description |
