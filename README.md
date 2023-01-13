@@ -14,7 +14,7 @@ Rational for this scheme is that there is minimal space on the PCB yet each inte
 Each interface in the respective subfolders will define its own pinning. However there are a few conventions which every interface connector should conform to.
 
 ### host/device
-There are two seperate footprints for host/device side. For many interfaces it is clear which is which. On designs it will be noted which side is host and which is device.
+There are two seperate footprints for host/device side. For many interfaces it is clear which is which. Small arows on the top silkscreen help visually identify which side is host and which is device. Host connectors are usually placed on the right side of the board and device side connectors on the left.
 
 ### spacing
 In order to allow for standard 13mm wide adapter boards connectors should be placed no closer than 16mm apeart on a board edge (measured pin 1 to pin 1). 
