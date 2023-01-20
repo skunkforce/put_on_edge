@@ -1,5 +1,5 @@
 # put_on_edge
-This is an open standard for PCB edge connector pinning of various interfaces. It uses the AVX Corporation 009159010061916 connector which is low cost, high density and most importantly needs no soldering and is not permanently attached to a PCB. 
+This is an open standard for PCB edge connector pinning of various interfaces. It uses the AVX Corporation [009159010061916](https://datasheets.kyocera-avx.com/OpenEndedCardEdge_00-9159.pdf) connector which is low cost, high density and most importantly needs no soldering and is not permanently attached to a PCB. 
 
 # naming and labeling
 In order to uniquely identify which standard an edge connector adhears to it is suggested to use the foillowing naming convention: 
