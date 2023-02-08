@@ -1,5 +1,10 @@
 # put_on_edge
 This is an open standard for PCB edge connector pinning of various interfaces. It uses the AVX Corporation [009159010061916](https://datasheets.kyocera-avx.com/OpenEndedCardEdge_00-9159.pdf) connector which is low cost, high density and most importantly needs no soldering and is not permanently attached to a PCB. 
+![](doc/card_edge_connector.png)
+
+## why standardize board to board connections?
+A lot of effort is lost on documenting the pinout of connectors while prototyping as well as fiddling with zumper wire connectors. This project is an effort to reduce that effort as most interfaces are pretty well defined already. 
+For a motivating example see [the edgy boards project]() or think of a decomposed circuit prototype with defined interfaces between the compoinents such as ![](doc/motivating_example.drawio.png). 
 
 # naming and labeling
 In order to uniquely identify which standard an edge connector adhears to it is suggested to use the foillowing naming convention: 
