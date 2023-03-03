@@ -208,8 +208,8 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 15 4.2)
-        (xy -5 4.2)
+        (xy 15 4)
+        (xy -5 4)
         (xy -5 0)
         (xy 15 0)
       )
