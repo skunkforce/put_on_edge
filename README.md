@@ -24,13 +24,13 @@ There are two seperate footprints for host/device side. For many interfaces it i
 ### spacing
 In order to allow for standard 13mm wide adapter boards connectors should be placed no closer than 16mm apeart on a board edge (measured pin 1 to pin 1). 
 
-### GND
-Pin 1 is always GND.
-
 ### orientation
 Pin 1 should always be on the top side of the board, this will make reverse connections less common.
 
 Host connectors should generally be oriented on the right or bottom side of a board and device connectors on the left or top. 
+
+### power connection friendly pinning
+Pin 1 is always GND. Pins 9 and 10 on 10 pin connectors and pins 14 and 15 on 20 pin connectors should be 3.3V and 5V respectivly.
 
 ### galvanic isolation friendly pinning
 Galvanic isolation modules (such and the iCoupler series) can support many different interfaces with one generic isolator. Care should be taken to standardize the interface such that a generic isolation device can be used for several different interface (SPI and UART for example). 
@@ -46,3 +46,4 @@ Galvanic isolation modules (such and the iCoupler series) can support many diffe
 | 8   | host out    | ~reset|
 | 9   | 3.3V        | |
 | 10  | 5V          | | 
+
