@@ -1,5 +1,5 @@
 # Quad SPI
-Version osf.018.v0.1
+Version osf.018.v1.0
 ## pinning
 | Pin | Description |
 | --- | ----------- |
@@ -10,8 +10,8 @@ Version osf.018.v0.1
 | 5   | SD3  |
 | 6   | CS   |
 | 7   | SCLK |
-| 8   | NC   |
+| 8   | SW0  |
 | 9   | 3.3v |
-| 10  | NC   |
+| 10  | SW1  |
 
 
