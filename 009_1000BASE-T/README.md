@@ -14,4 +14,4 @@ Version osf.009.v0.2
 | 9   | TD4+ |
 | 10  | TD4- |
 
-this connector should be oriented on the top (magnetics side) or the bottom (phy side) of a board.
+this connector is used on the wire side of the magnetics. For the phy side of the magnetics use 019.
