@@ -1,5 +1,4 @@
 # SPI
-Version osf.002.v0.2
 ## pinning
 
 | Pin | Description | 
