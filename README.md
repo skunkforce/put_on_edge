@@ -50,7 +50,7 @@ Galvanic isolation modules (such and the iCoupler series) can support many diffe
 # higherarchy
 Connectors can be organized in a higherarchy where more specialized can be connected to less specialized if only a reduced function is required.
 ```mermaid
-graph TD
+graph LR
     root[GND on pin 1] --> vcc[5v on pin 10]
     root --> j022[022 battery cells]
     vcc --> j000[000 5v on 10, 3.3v on 9]
@@ -69,7 +69,7 @@ graph TD
     j000 --> j018[018 QSPI]
     j000 --> j019[019 100BASE-T with CT]
     j019 --> j020[020 1000BASE-T with CT]
-    j000 --> j021[021 single IO UNIO]
+    j100 --> j021[021 single IO UNIO]
     j100 --> j001[001 I2C]
     j100 --> j002[002 SPI]
     j100 --> j005[005 1-wire]
@@ -78,6 +78,12 @@ graph TD
     
     
     j009[009 ethernet cable side]
+    
+    click j001 "https://github.com/skunkforce/put_on_edge/blob/master/001_I2C/README.md"
+    click j002 "https://github.com/skunkforce/put_on_edge/blob/master/002_SPI/README.md"
+    click j003 "https://github.com/skunkforce/put_on_edge/blob/master/003_power/README.md"
+    click j004 "https://github.com/skunkforce/put_on_edge/blob/master/004_BASE-T_CT/README.md"
+    click j005 "https://github.com/skunkforce/put_on_edge/blob/master/005_1wire/README.md"
     
     
 ```
