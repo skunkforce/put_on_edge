@@ -79,11 +79,11 @@ graph LR
     
     j009[009 ethernet cable side]
     
-    click j001 "https://github.com/skunkforce/put_on_edge/blob/master/001_I2C/README.md"
-    click j002 "https://github.com/skunkforce/put_on_edge/blob/master/002_SPI/README.md"
-    click j003 "https://github.com/skunkforce/put_on_edge/blob/master/003_power/README.md"
-    click j004 "https://github.com/skunkforce/put_on_edge/blob/master/004_BASE-T_CT/README.md"
-    click j005 "https://github.com/skunkforce/put_on_edge/blob/master/005_1wire/README.md"
+    click j001 "https://github.com/skunkforce/put_on_edge/blob/master/001_I2C/README.md" _blank
+    click j002 "https://github.com/skunkforce/put_on_edge/blob/master/002_SPI/README.md" _blank
+    click j003 "https://github.com/skunkforce/put_on_edge/blob/master/003_power/README.md" _blank
+    click j004 "https://github.com/skunkforce/put_on_edge/blob/master/004_BASE-T_CT/README.md" _blank
+    click j005 "https://github.com/skunkforce/put_on_edge/blob/master/005_1wire/README.md" _blank
     
     
 ```
