@@ -1,7 +1,5 @@
 # Power
-Version osf.003.v0.2
-
-Use the 'host' connector on the power supply side.
+Use the 'host' connector on the power supply side. Pins 2 to 5 can be left unconnected to increase compatability.
 ## pinning
 
 | Pin | Description |
@@ -17,5 +15,3 @@ Use the 'host' connector on the power supply side.
 | 9   | 3.3V |
 | 10  | 5V   |
 
-
- Power connectors should be oriented on the top (device) or bottom (host) of the board. 
