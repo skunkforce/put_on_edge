@@ -46,3 +46,38 @@ Galvanic isolation modules (such and the iCoupler series) can support many diffe
 | 8   | host out    | ~reset|
 | 9   | 3.3V        | |
 | 10  | 5V          | | 
+
+# higherarchy
+Connectors can be organized in a higherarchy where more specialized can be connected to less specialized if only a reduced function is required.
+```mermaid
+graph TD
+    root[GND on pin 1] --> vcc[5v on pin 10]
+    root --> j022[022 battery cells]
+    vcc --> j000[000 5v on 10, 3.3v on 9]
+    vcc --> j008[008 USB]
+    j000 --> j100[100 generic digital interface]
+    j000 --> j003[003 low voltage power]
+    j000 --> j004[004 BASE-T center taps]
+    j000 --> j006[006 RMII]
+    j000 --> j015[015 RGMII]
+    j000 --> j016[016 SGMII]
+    j000 --> j007[007 ADC]
+    j000 --> j011[011 GPIO]
+    j000 --> j013[013 PoE Rectified]
+    j000 --> j014[014 PoE Controlled]
+    j000 --> j017[017 BASE-T1]
+    j000 --> j018[018 QSPI]
+    j000 --> j019[019 100BASE-T with CT]
+    j019 --> j020[020 1000BASE-T with CT]
+    j000 --> j021[021 single IO UNIO]
+    j100 --> j001[001 I2C]
+    j100 --> j002[002 SPI]
+    j100 --> j005[005 1-wire]
+    j100 --> j010[010 UART]
+    j100 --> j012[012 CAN]
+    
+    
+    j009[009 ethernet cable side]
+    
+    
+```
