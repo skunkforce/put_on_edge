@@ -14,38 +14,16 @@ In order to uniquely identify which standard an edge connector adhears to it is 
 
 Rational for this scheme is that there is minimal space on the PCB yet each interface should be uniquely identified. In order for other organizations or hobbiests to make their own extentions the organization identification is needed.
 
-
-## global conventions
-Each interface in the respective subfolders will define its own pinning. However there are a few conventions which every interface connector should conform to.
-
 ### host/device
 There are two seperate footprints for host/device side. For many interfaces it is clear which is which. Small arows on the top silkscreen help visually identify which side is host and which is device. Host connectors are usually placed on the right side of the board and device side connectors on the left.
 
 ### spacing
 In order to allow for standard 13mm wide adapter boards connectors should be placed no closer than 16mm apeart on a board edge (measured pin 1 to pin 1). 
 
-### GND
-Pin 1 is always GND.
-
 ### orientation
 Pin 1 should always be on the top side of the board, this will make reverse connections less common.
 
 Host connectors should generally be oriented on the right or bottom side of a board and device connectors on the left or top. 
-
-### galvanic isolation friendly pinning
-Galvanic isolation modules (such and the iCoupler series) can support many different interfaces with one generic isolator. Care should be taken to standardize the interface such that a generic isolation device can be used for several different interface (SPI and UART for example). 
-| Pin | Description | typical connection
-| --- | ----------- | ----- |
-| 1   | GND         |       |
-| 2   | host out    | tx or bidirectional data |
-| 3   | host in     | rx |
-| 4   | host out    | clk |
-| 5   | host in     | |
-| 6   | host out    | CS |
-| 7   | host in     | |
-| 8   | host out    | ~reset|
-| 9   | 3.3V        | |
-| 10  | 5V          | | 
 
 # higherarchy
 Connectors can be organized in a higherarchy where more specialized can be connected to less specialized if only a reduced function is required.
@@ -87,3 +65,24 @@ graph LR
     
     
 ```
+
+## advantages of hierarchical pin definitions
+| Pin | Description | typical connection
+| --- | ----------- | ----- |
+| 1   | GND         |       |
+| 2   | host out    | tx or bidirectional data |
+| 3   | host in     | rx |
+| 4   | host out    | clk |
+| 5   | host in     | |
+| 6   | host out    | CS |
+| 7   | host in     | |
+| 8   | host out    | ~reset|
+| 9   | 3.3V        | |
+| 10  | 5V          | | 
+### Configurable pins on microcontrollers
+Many modern microcontrollers have either IO-pin-mux functionality or generic configurable state machine engines which allow multiple digital interfaces to be supported by the same set of pins. For a RP2040 for example an set of IO pins connected to an SPI connector would be over constrained. Using a generic 100 specification allows all the children to be connected.
+
+### Isolator friendly
+Galvanic isolation modules (such and the iCoupler series) can support many different interfaces with one generic isolator. Care should be taken to standardize the interface such that a generic isolation device can be used for several different interface (SPI and UART for example). 
+
+
