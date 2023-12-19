@@ -40,7 +40,7 @@ graph LR
     j000 --> j015[015 RGMII]
     j000 --> j016[016 SGMII]
     j000 --> j007[007 ADC]
-    j000 --> j011[011 GPIO]
+    j100 --> j011[011 GPIO]
     j000 --> j013[013 PoE Rectified]
     j000 --> j014[014 PoE Controlled]
     j000 --> j017[017 BASE-T1]
