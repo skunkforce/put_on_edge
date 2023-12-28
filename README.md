@@ -73,9 +73,9 @@ graph LR
 | 2   | host out    | tx or bidirectional data |
 | 3   | host in     | rx |
 | 4   | host out    | clk |
-| 5   | host in     | |
+| 5   | host in     | INT |
 | 6   | host out    | CS |
-| 7   | host in     | |
+| 7   | host in     | status |
 | 8   | host out    | ~reset|
 | 9   | 3.3V        | |
 | 10  | 5V          | | 
