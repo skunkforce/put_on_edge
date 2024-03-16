@@ -1,4 +1,6 @@
 # Power
+osf.003
+
 Use the 'host' connector on the power supply side. Pins 2 to 5 can be left unconnected to increase compatability.
 ## pinning
 
