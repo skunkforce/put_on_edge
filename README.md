@@ -82,7 +82,7 @@ graph LR
 ### Configurable pins on microcontrollers
 Many modern microcontrollers have either IO-pin-mux functionality or generic configurable state machine engines which allow multiple digital interfaces to be supported by the same set of pins. For a RP2040 for example an set of IO pins connected to an SPI connector would be over constrained. Using a generic 100 specification allows all the children to be connected.
 
-### Isolator friendly
+### Isolator/level shifter friendly
 Galvanic isolation modules (such and the iCoupler series) can support many different interfaces with one generic isolator. Care should be taken to standardize the interface such that a generic isolation device can be used for several different interface (SPI and UART for example). 
 
 
