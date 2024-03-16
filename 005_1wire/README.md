@@ -1,4 +1,5 @@
 # 1wire
+osf.005
 ## pinning
 
 | Pin | Description 
